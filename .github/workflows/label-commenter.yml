@@ -1,15 +1,16 @@
 name: Label Commenter
 
-on:
-  issues:
-    types:
-      - labeled
-      - unlabeled
-  pull_request_target:
-    types:
-      - labeled
-      - unlabeled
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issues:
+#     types:
+#       - labeled
+#       - unlabeled
+#   pull_request_target:
+#     types:
+#       - labeled
+#       - unlabeled
+# 
 permissions:
   contents: read
   issues: write

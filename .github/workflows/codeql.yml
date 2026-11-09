@@ -1,11 +1,12 @@
 name: "Code Scanning"
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+# 
 permissions:
   actions: read
   contents: read

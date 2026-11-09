@@ -1,6 +1,7 @@
 name: Check Pages Status
 
-on: page_build
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: page_build
 
 jobs:
   pages-status-check:

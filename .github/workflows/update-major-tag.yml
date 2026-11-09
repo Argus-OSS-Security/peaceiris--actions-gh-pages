@@ -1,9 +1,10 @@
 name: Update major tag
 
-on:
-  release:
-    types: [released]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   release:
+#     types: [released]
+# 
 jobs:
   update:
     runs-on: ubuntu-slim
